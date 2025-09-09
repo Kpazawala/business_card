@@ -1,0 +1,18 @@
+# macOS junk
+.DS_Store
+
+# KiCad backups and autosaves
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*.bck
+*.tmp
+
+# Ignore everything in Fabrication except Gerber/files
+/Manufacturing/Fabrication/*
+!/Manufacturing/Fabrication/Gerber/
+!/Manufacturing/Fabrication/bom.csv
+!/Manufacturing/Fabrication/Fabrication.pdf
+
+/Manufacturing/Fabrication/Gerber/*
