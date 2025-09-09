@@ -12,5 +12,7 @@
 # Ignore everything in Fabrication except Gerber/files
 /Fabrication/*
 !/Fabrication/Gerber/
+!/Fabrication/bom.csv
+!/Fabrication/Fabrication.pdf
 
 /Fabrication/Gerber/*
