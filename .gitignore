@@ -17,4 +17,5 @@
 
 /Manufacturing/Fabrication/Gerber/*
 
-!/business_cards-backups/*
+business_card-backups/*
+!business_card-backups/.gitkeep
